@@ -1,0 +1,65 @@
+header{
+    border-bottom: white 2px solid;
+    min-width: 100%;
+    border-width: 100%;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    display: grid;
+    flex-direction: row;
+    background-color: black;
+    grid-template-columns: auto 25% auto auto;
+    position: fixed;
+    margin-top: -9px;
+}
+
+
+.instagram-logo{
+    max-width: 200px;
+    max-height: 100px;
+    filter: invert(100%);
+    margin: 10px 100px 30px 100px;
+    float:  left;
+}
+
+.header-searchBar{
+   background-color: #2d2e2e;
+   border-radius: 100px;
+   margin: 10px 0px 0px 40px;
+   float:  center;
+   max-width: 500px;
+   height: 50px;
+   border: 0px;
+   color: white;
+   padding: 25px;
+   font-size: 30px;
+   position: relative;
+
+}
+.header-searchBtn{
+    float:  center;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right:10vh;
+    border: 0px;
+    border-radius: 100%;
+    display: inline;
+    cursor: pointer;
+    float: center;
+    z-index: 1;
+}
+
+.hdoptionBtn{
+    background-color: transparent;
+    border: 0px;
+    margin: auto;
+    filter: invert(100%);
+    font-size: xx-large;
+    cursor: pointer;
+    float: right;
+    position: absolute;
+    padding:10px;
+  }
+
+
+
